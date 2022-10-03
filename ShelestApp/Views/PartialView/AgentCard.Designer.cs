@@ -28,24 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.logoPictureBox = new System.Windows.Forms.PictureBox();
             this.titleTypeLbl = new System.Windows.Forms.Label();
             this.salesQtyLbl = new System.Windows.Forms.Label();
             this.phoneLbl = new System.Windows.Forms.Label();
             this.priorityLbl = new System.Windows.Forms.Label();
             this.discountLbl = new System.Windows.Forms.Label();
+            this.logoPictureBox = new System.Windows.Forms.PictureBox();
+            this.idLbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.logoPictureBox)).BeginInit();
             this.SuspendLayout();
-            // 
-            // logoPictureBox
-            // 
-            this.logoPictureBox.Image = global::ShelestApp.Properties.Resources.picture;
-            this.logoPictureBox.Location = new System.Drawing.Point(3, 3);
-            this.logoPictureBox.Name = "logoPictureBox";
-            this.logoPictureBox.Size = new System.Drawing.Size(192, 170);
-            this.logoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.logoPictureBox.TabIndex = 0;
-            this.logoPictureBox.TabStop = false;
             // 
             // titleTypeLbl
             // 
@@ -97,13 +88,36 @@
             this.discountLbl.TabIndex = 1;
             this.discountLbl.Text = "10%";
             // 
+            // logoPictureBox
+            // 
+            this.logoPictureBox.Image = global::ShelestApp.Properties.Resources.picture;
+            this.logoPictureBox.Location = new System.Drawing.Point(3, 3);
+            this.logoPictureBox.Name = "logoPictureBox";
+            this.logoPictureBox.Size = new System.Drawing.Size(192, 170);
+            this.logoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logoPictureBox.TabIndex = 0;
+            this.logoPictureBox.TabStop = false;
+            // 
+            // idLbl
+            // 
+            this.idLbl.AutoSize = true;
+            this.idLbl.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.idLbl.Location = new System.Drawing.Point(1014, 140);
+            this.idLbl.Name = "idLbl";
+            this.idLbl.Size = new System.Drawing.Size(34, 33);
+            this.idLbl.TabIndex = 1;
+            this.idLbl.Text = "id";
+            this.idLbl.Visible = false;
+            // 
             // AgentCard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.discountLbl);
+            this.Controls.Add(this.idLbl);
             this.Controls.Add(this.priorityLbl);
             this.Controls.Add(this.phoneLbl);
             this.Controls.Add(this.salesQtyLbl);
@@ -125,5 +139,6 @@
         private System.Windows.Forms.Label phoneLbl;
         private System.Windows.Forms.Label priorityLbl;
         private System.Windows.Forms.Label discountLbl;
+        public System.Windows.Forms.Label idLbl;
     }
 }

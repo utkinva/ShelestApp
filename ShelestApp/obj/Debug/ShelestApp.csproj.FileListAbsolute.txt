@@ -16,3 +16,4 @@ C:\Users\315\source\repos\ShelestApp\ShelestApp\obj\Debug\ShelestApp.exe
 C:\Users\315\source\repos\ShelestApp\ShelestApp\obj\Debug\ShelestApp.pdb
 C:\Users\315\source\repos\ShelestApp\ShelestApp\obj\Debug\ShelestApp.Views.PartialView.AgentCard.resources
 C:\Users\315\source\repos\ShelestApp\ShelestApp\obj\Debug\ShelestApp.MainForm.resources
+C:\Users\315\source\repos\ShelestApp\ShelestApp\obj\Debug\ShelestApp.Views.ChangePriorityForm.resources

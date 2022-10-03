@@ -28,6 +28,7 @@ namespace ShelestApp.Views.PartialView
             phoneLbl.Text = $"{agent.Phone}";
             priorityLbl.Text = $"Приоритет: {agent.Priority}";
             discountLbl.Text = $"{agent.Discount}%";
+            idLbl.Text = agent.ID.ToString();
 
             if (agent.Discount >= 25)
             {
